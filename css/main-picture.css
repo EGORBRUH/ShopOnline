@@ -1,0 +1,58 @@
+.picture-content {
+  background-image: url("../image/banner-main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 30px;
+  display: grid;
+  cursor: pointer;
+  position: relative;
+  grid-template-rows: 440px;
+}
+
+
+.picture-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  position: absolute;
+  left: 112px;
+  top: 145px;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+.picture-time_title {
+  position: absolute;
+  bottom: 123px;
+  left: 823px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+.picture-time-list {
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  margin-right: 6px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  margin-right: 30px;
+}
+

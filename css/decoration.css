@@ -1,0 +1,80 @@
+.decoration-content {
+  display: grid;
+  min-height: 516px;
+  grid-template-columns: repeat(1, 1160px 245px 2fr);
+  grid-template-rows: 245px 245px;
+  gap: 30px 60px;
+}
+
+.decoration-picture {
+  position: relative;
+  background-image: url("../image/decoration-main.jpg");
+  background-repeat: no-repeat;
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+}
+
+.decoration-picture h2 {
+  position: absolute;
+  max-width: 634px;
+  padding: 30px 43px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  border-radius: 20px;
+  color: #F91155;
+  bottom: 50px;
+  left: 50px;
+}
+
+.decoration-woman {
+  background-image: url("../image/dec-woman.jpg");
+  background-repeat: no-repeat;
+
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+}
+
+.decoration-chemistry {
+  position: relative;
+  background-image: url("../image/chemistry.jpg");
+  background-repeat: no-repeat;
+}
+
+.decoration-chemistry p {
+  position: absolute;
+  bottom: 37px;
+  left: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.decoration-chemistry:before {
+  content: "";
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  background-color: #FFBD13;
+}
+
+.decoration-chemistry:after {
+  content: "-40%";
+  font-size: 30px;
+  line-height: 130%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 44px;
+  left: 29px;
+}
+
+.decoration-balloons {
+  background-image: url("../image/ballons.jpg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,136 @@
+.header {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.header-nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr 5fr 1fr 4fr;
+
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  min-height: 61px;
+
+}
+
+.header-item {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  align-self: end;
+
+}
+
+
+.header-logo {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.06em;
+  color: #2D2D2D;
+  margin-right: 123px;
+  align-self: center;
+}
+
+.header-logo span {
+  color: rgba(54, 112, 199, 1);
+}
+
+.header-btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.header-btn:before {
+  content: url("../image/menu-vector.svg");
+  position: absolute;
+  left: 30px;
+  top: 14px;
+  width: 15px;
+  height: 12px;
+
+}
+
+.menu-bg {
+  padding: 9px 28px 12px 61px;
+  background: #3670C7;
+  border-radius: 10px;
+  margin-right: 99px;
+}
+
+.header-input {
+  background: #EFEFEF;
+  border-radius: 30px;
+  border: none;
+  width: 656px;
+}
+
+
+input[placeholder] {
+  padding-left: 40px;
+}
+
+.header-search {
+  position: relative;
+  margin-right: 97px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.header-search:before {
+  content: "";
+  background-color: #3670C7;
+  top: 0;
+  right: 13px;
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.header-search:after {
+  content: url("../image/search-img.svg");
+  width: 26.24px;
+  height: 26.24px;
+  position: absolute;
+  top: 16px;
+  right: 60px;
+}
+
+.profile:before {
+  content: url("../image/profile.svg");
+  width: 24px;
+  height: 24px;
+  top: -30px;
+  left: 20px;
+  position: absolute;
+
+}
+
+.basket:before {
+  content: url("../image/basket.svg");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+  top: -35px;
+}
+
+.favorite:before {
+  content: url("../image/favorite.svg");
+  width: 30px;
+  height: 27.53px;
+  position: absolute;
+  left: 20px;
+  top: -35px;
+}
