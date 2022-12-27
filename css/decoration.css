@@ -1,9 +1,10 @@
 .decoration-content {
   display: grid;
   min-height: 516px;
-  grid-template-columns: repeat(1, 1160px 245px 2fr);
+  width: 100%;
+  grid-template-columns: minmax(900px, 1160px) minmax(200px, 245px) minmax(200px, 245px);
   grid-template-rows: 245px 245px;
-  gap: 30px 60px;
+  gap: 26px 60px;
 }
 
 .decoration-picture {
